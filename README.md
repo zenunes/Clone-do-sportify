@@ -1,3 +1,3 @@
-Clone do Sportify usando apenas HTML e CSS
+<h1>Clone do Sportify usando apenas HTML e CSS<h1>
 
-Primeiro projeto sem consulta.
+<img src="./image/sportify.gif">
