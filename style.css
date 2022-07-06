@@ -3,8 +3,13 @@
     margin: 0;
     padding: 0;
 }
+html{
+    /*a cada 1rem será considerado 10px*/
+    font-size: 62.5%;
+}
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
 }
 
 
@@ -19,7 +24,8 @@ body{
 
 }
 #navbar .navbar-container{
-    width: 77%;
+    width: 90%;
+    max-width: 980px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +44,10 @@ body{
 }
 #navbar .navbar-container ul li{
     padding: 0 25px;
-    font-size: 14px;
+    font-size: 1.4rem;
+}
+#navbar .navbar-container ul li:nth-child(5){
+    padding: 0px 0px 0px 25px;
 }
 #navbar .navbar-container ul li:hover{
     color: #1ed760;
@@ -62,7 +71,8 @@ body{
 }
 .showcase .show-container{
     display: flex;
-    width: 77%;
+    width: 90%;
+    max-width: 980px;
     
 }
 .showcase .show-container .container-left{
@@ -70,19 +80,19 @@ body{
 
 }
 .showcase .show-container .container-left p{
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    padding-top: 80px;
+    padding-top: 60px;
 }
 .showcase .show-container .container-left h1{
-    padding-top: 47px;
-    font-size: 55px;
+    padding-top: 30px;
+    font-size: 5.5rem;
 
 }
 .showcase .show-container .container-left .subtitle{
-    padding-top: 47px;
+    padding-top: 30px;
     font-size: 25px;
     line-height: 1.5;
     font-weight: 400;
@@ -90,7 +100,7 @@ body{
 .showcase .show-container .container-left .bnt-one{
     border: 0;
     margin-top: 35px;
-    height: 45px;
+    height: 4.5rem;
     padding: 0 22px;
     border-radius: 30px;
     background-color: #000;
@@ -100,12 +110,11 @@ body{
 
 }
 .showcase .show-container .container-left .bnt-one:hover{
-    
     cursor: pointer;
 }
 .showcase .show-container .container-left .termos{
-    padding-top: 35px;
-    font-size: 10px;
+    padding-top: 20px;
+    font-size: 1.0rem;
 }
 .showcase .show-container .container-right{ 
     flex: 1;
@@ -113,9 +122,9 @@ body{
 }
 .showcase .show-container .container-right .hero-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 80px;
+    justify-content: right;
+    align-items:center;
+    padding-top: 60px;
 }
 
 .showcase .show-container .container-right .hero{
@@ -133,10 +142,11 @@ body{
     color: #1ed760;
     display: flex;
     justify-content: center;
-    padding-top: 64px;
+    padding-top: 34px;
 }
 .case-2 .case-container{
-    width: 77%;
+    width: 90%;
+    max-width: 980px;
     
 
     
@@ -144,19 +154,19 @@ body{
 .case-2 .case-container p{
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 1.4rem;
     padding-top: 16px;
     padding-bottom: 32px;
     letter-spacing: 0.1em;
 }
 .case-2 .case-container .title{
     font-size: 900;
-    font-size: 55px;
+    font-size: 5.5rem;
     padding-bottom: 47px;
 }
 .case-2 .case-container .subtitle-2{
     height: 100px;
-    font-size: 25px;
+    font-size: 2.5rem;
     width: 550px;
     line-height: 1.5;
     font-weight: 400;
@@ -185,15 +195,16 @@ body{
 }
 #footer .container-footer{
     display: flex;
-    width: 77%;
+    width: 90%;
+    max-width: 980px;
     margin: auto;
-    padding-top: 80px;
+    padding-top: 60px;
     /*justify-content: space-between;*/
 }
 #footer .container-footer .footer-menu{
     margin: 0 60px;
     list-style: none;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 35px;
     
 }
@@ -203,7 +214,7 @@ body{
 }
 #footer .container-footer .footer-menu p{
 font-weight: bold;
-font-size: 13px;
+font-size: 1.3rem;
 text-transform: uppercase;
 color: rgb(134, 134, 134);
 }
@@ -228,7 +239,8 @@ color: rgb(134, 134, 134);
 .footer-info{
     padding-top: 90px;
     display: flex;
-    width: 77%;
+    width: 90%;
+    max-width: 980px;
     margin: auto;
     justify-content: space-between;
     padding-bottom: 40px;
@@ -239,7 +251,7 @@ color: rgb(134, 134, 134);
 }
 .footer-info .footer-info-iten{
     padding: 0 10px;
-    font-size: 11px;
+    font-size: 1.1rem;
     color: rgb(134, 134, 134);
 }
 .footer-info ul li:hover{
@@ -248,7 +260,7 @@ color: rgb(134, 134, 134);
 }
 
 .footer-info .right{
-    font-size: 12px;
+    font-size: 1.2rem;
     color: rgb(134, 134, 134);
 }
 .footer-info .right .country{
