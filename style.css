@@ -10,6 +10,7 @@ html{
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
+    
 }
 
 
@@ -205,7 +206,7 @@ body{
     margin: 0 60px;
     list-style: none;
     font-size: 1.4rem;
-    line-height: 35px;
+    line-height: 3.5rem;
     
 }
 #footer ul li:hover{
@@ -226,7 +227,7 @@ color: rgb(134, 134, 134);
 }
 .social i{
     margin: 0 15px;
-    font-size: 25px;
+    font-size: 2.5rem;
     
 }
 .social i:hover{
@@ -276,4 +277,19 @@ color: rgb(134, 134, 134);
 .footer-info .right .country p:hover{
     color: #1ed760;
     cursor: pointer;
+}
+
+@media (max-width:953px){
+.showcase .show-container .container-left h1{
+    font-size: 4.0rem;
+}
+}
+@media (max-width:908px){
+    .showcase .show-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .showcase .show-container .container-right .hero-container{
+        justify-content: center;
+    }
 }
